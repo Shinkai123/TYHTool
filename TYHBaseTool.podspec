@@ -16,10 +16,10 @@ Pod::Spec.new do |spec|
   #
 
   spec.name         = "TYHBaseTool"
-  spec.version      = "0.0.1"
+  spec.version      = "0.0.3"
   spec.summary      = "Extension_tool"
 
-  spec.description  = 'tool'
+  spec.description  = 'a project of Extension_tool'
 
   spec.homepage     = "https://github.com/Shinkai123/TYHTool"
 
@@ -27,13 +27,13 @@ Pod::Spec.new do |spec|
   spec.license      = { :type => "MIT", :file => "FILE_LICENSE" }
 
   spec.author             = { "tyh" => "1210480377@qq.com" }
-   spec.swift_version = '4.2'
+   spec.swift_version = '5.1'
    spec.ios.deployment_target = "9.0"
 
 
   spec.source       = { :git => "https://github.com/Shinkai123/TYHTool.git", :tag => spec.version.to_s }
 
-  spec.source_files  = "TYHBaseTool/Classes/*{.swift}"
+  spec.source_files  = "TYHBaseTool/Classes/**/*{.swift}"
 
   spec.dependency 'CTMediator'
 
