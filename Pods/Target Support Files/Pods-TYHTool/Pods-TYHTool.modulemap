@@ -1,0 +1,6 @@
+framework module Pods_TYHTool {
+  umbrella header "Pods-TYHTool-umbrella.h"
+
+  export *
+  module * { export * }
+}
