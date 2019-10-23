@@ -33,11 +33,7 @@ Pod::Spec.new do |spec|
 
   spec.source       = { :git => "https://github.com/Shinkai123/TYHTool.git", :tag => spec.version.to_s }
 
-  spec.source_files  = "Classes", "Classes/**/*.{h,m}"
-  spec.exclude_files = "Classes/Exclude"
-
-  spec.public_header_files = "TYHBaseTool/Classes/**/*.h"
-
+  spec.source_files  = "TYHBaseTool/Classes/*{.swift}"
 
   spec.dependency 'CTMediator'
 
