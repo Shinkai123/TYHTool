@@ -1,16 +1,22 @@
 PODS:
   - CTMediator (25)
+  - TYHBaseResource (0.0.4):
+    - CTMediator
 
 DEPENDENCIES:
   - CTMediator
+  - TYHBaseResource
 
 SPEC REPOS:
   https://github.com/cocoapods/specs.git:
     - CTMediator
+  https://github.com/Shinkai123/TyhSpecs1.git:
+    - TYHBaseResource
 
 SPEC CHECKSUMS:
   CTMediator: 830c1fc204b3a6abf2a059510c7380f56343da0f
+  TYHBaseResource: ff4c6a0abfc5dd28fed47ba08e2a72bc623ec577
 
-PODFILE CHECKSUM: 261506892d04c6d5ac160799209fcff5a984363e
+PODFILE CHECKSUM: d594beeb90db16dcfb543c8be685f4d519bc30a8
 
 COCOAPODS: 1.7.5

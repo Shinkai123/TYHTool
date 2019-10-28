@@ -16,7 +16,7 @@ Pod::Spec.new do |spec|
   #
 
   spec.name         = "TYHBaseTool"
-  spec.version      = "0.0.3"
+  spec.version      = "0.0.4"
   spec.summary      = "Extension_tool"
 
   spec.description  = 'a project of Extension_tool'
@@ -36,5 +36,6 @@ Pod::Spec.new do |spec|
   spec.source_files  = "TYHBaseTool/Classes/**/*{.swift}"
 
   spec.dependency 'CTMediator'
+  spec.dependency 'TYHBaseResource'
 
 end
